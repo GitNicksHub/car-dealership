@@ -1,0 +1,171 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container-1 {
+   padding: 10px 0 350px 70px;
+   background-image: url("2016.jpg");
+   background-size: cover;
+   background-position: 50% 90%;
+   margin: 0 0;
+   max-width: 100%;
+}
+
+.brand {
+   padding: 20px 0 30px 0;
+   font-size: 1.3rem;
+   font-family: 'Roboto', sans-serif;
+   color: #ececec;
+   text-shadow: 1px 1px 2px white, 0 0 1em black, 0 0 0.2em rgb(210, 60, 0);
+   text-decoration: underline;
+
+}
+input {
+   width: 484px;
+   height: 90%;
+   background-color: #fff;
+   opacity: 0.5;
+   border: none;
+   outline: none;
+   padding: 2px 20px;
+   font-size: 18px;
+}
+.container-1 .header .search {
+   background-color: #fff;
+   padding: 5px;
+   border-radius: 8px;
+   display: flex;
+   width: 600px;
+   margin: auto;
+}
+.container-1 .header .search button {
+  background-color: rgb(221, 226, 230); 
+   width: 100px;
+   height: 40px;
+   border-radius: 8px;
+   border: 1px solid rgb(189, 193, 196);
+   margin-left: 5px;
+}
+.container-1 .header .search button i {
+   background-color: rgb(221, 226, 230);
+}
+
+.nav-links {
+   padding: 28px 0;
+   float: right;
+   margin-right: 100px;
+}
+.nav-links li {
+   display: inline-block;
+   margin: 0 15px;
+}
+.nav-links li a {
+   text-decoration: none;
+   color: #000000;
+   padding: 5px 0;
+   position: relative;
+}
+.nav-links li a::after {
+   content: '';
+   background: #ff3d00;
+   width: 0;
+   height: 2px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: width 0.3s;
+}
+.nav-links li a:hover::after {
+   width: 100%;
+}
+
+/* Cards */
+
+section .card-1 {
+padding: 10px;
+margin: 10px;
+}
+thead th {
+   border: 1px solid rgb(186, 186, 186);
+   text-align: center;
+   padding: 2px;
+}
+body td {
+   border: 1px solid rgb(186, 186, 186);
+   text-align: center;
+   padding: 2px;
+}
+.card-body h4 {
+   text-align: center;
+   padding: 0;
+}
+.card-1 {
+   border: 1px solid rgb(0, 0, 0);
+}
+.card-1 .card-body button {
+   display: flex;
+   border: 1.5px rgb(168, 168, 168) solid;
+   border-radius: 4px;
+   text-decoration: none;
+   color: #ff3d00;
+   margin: auto;
+}
+table {
+   margin-bottom: 5px;
+}
+.col-3 {
+   margin: 3px;
+}
+#car-card {
+transform: translate(63%, 0);
+}
+.middle-line {
+   border-top: 5px solid #fddacf;
+   margin: 0;
+}
+/* Content section */
+.body {
+   position: relative;
+   background-color: #fff3ef;
+   z-index: -2;
+}
+.midle-content {
+   position: absolute;
+   left: 0.8%;
+   top: 77%;
+   background-image: url("https://liftkit.imgix.net/media/bc1092/images/1666244509996681.jpg?auto=format");
+   filter: contrast(25%);
+   width: 60%;
+   height: 76.8%;
+   border: 1px #eaa792 solid;
+   background-size: cover;
+   background-position: center;
+   padding: 120px;
+   z-index: -1;
+}
+.text {
+   position: absolute;
+   top: 100%;
+   left: 15%;
+   filter: none;
+   color: #ffffff;
+}
+.text h1 span {
+   text-decoration: underline rgb(255, 0, 0);
+}
+
+/* Footer */
+.footer img {
+   position: relative;
+}
+.footer-text {
+   position: absolute;
+   text-align: center;
+   color: #fff;
+   top: 170%;
+   left: 30%;
+}
+.footer-text span {
+   text-decoration: underline rgb(255, 0, 0);
+}
